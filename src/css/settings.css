@@ -1,0 +1,110 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 100%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "europe";
+    src: url(/src/fonts/ofont.ru_Europe.ttf) format('truetype');
+}
+body {
+    font-family: 'europe', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+input:focus {
+    outline: none;
+}
+.container {
+    padding: 0 15px;
+    display: block;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.btn-reset {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+}
+.beige {
+    color: rgb(233, 228, 208);
+}
+.yellow {
+    color: #ffcf00;
+}
+.grey {
+    color: #586067;
+}
+.button-yellow {
+    background-color: #ffcf00;
+    color: #586067;
+    padding: 18px 27px 17px 27px;
+    transition: 0.3s, 0.3s;
+}
+.button-yellow:hover {
+    background-color: #ddb503;
+}
+.title {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 600;
+    margin: 0;
+}
+.title--center {
+    text-align: center;
+}
+.footer__title {
+    font-size: 17.5px;
+    font-weight: 700;
+    margin: 0;
+    color: #ffcf00;
+    margin-bottom: 15px;
+}
+.footer__title::after {
+    content: '';
+    display: block;
+    width: 30px;
+    margin-top: 15px;
+    height: 2px;
+    background-color: #8d8d8d;
+}
+.section--offset {
+    padding-top: 160px;
+}
